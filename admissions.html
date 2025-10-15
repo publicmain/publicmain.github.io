@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html class="wide wow-animation scrollTo" lang="en">
+
+<head>
+    <title>Admissions | ESIC</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700%7CMerriweather:400,300,300italic,400italic,700,700italic">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/novi.css">
+    <style>
+        /* 卡片悬停效果 */
+        .post-boxed:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15) !important;
+        }
+        
+        /* 按钮悬停效果 */
+        .btn-lg:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        
+        /* 标题链接颜色 */
+        .post-boxed-body h5 a {
+            color: #A51C30;
+            transition: color 0.3s ease;
+        }
+        
+        .post-boxed-body h5 a:hover {
+            color: #b80924;
+            text-decoration: none;
+        }
+        
+        /* 响应式优化 */
+        @media (max-width: 768px) {
+            .post-boxed:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-loader">
+        <div class="page-loader-body"><span class="cssload-loader"><span class="cssload-loader-inner"></span></span></div>
+    </div>
+    <div class="page text-center">
+        <header class="page-head">
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar novi-background rd-navbar-center" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="220px" data-xl-stick-up-offset="220px" data-xxl-stick-up-offset="220px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                    <div class="rd-navbar-inner">
+                        <div class="rd-navbar-panel"><button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
+                            <h4 class="panel-title">ESIC</h4><button class="rd-navbar-top-panel-toggle" data-rd-navbar-toggle=".rd-navbar-top-panel"><span></span></button>
+                            <div class="rd-navbar-top-panel">
+                                <div class="shell">
+                                    <div class="range range-10 range-md-center range-md-middle range-lg-around">
+                                        <div class="cell-md-3">
+                                            <div class="unit unit-horizontal unit-top unit-spacing-xs">
+                                                <div class="unit-left"><span class="icon novi-icon mdi mdi-phone text-middle"></span></div>
+                                                <div class="unit-body"><a class="reveal-block" href="tel:+6562982749">+65 62982749</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="cell-md-3 text-center">
+                                            <div class="rd-navbar-brand"><a class="reveal-inline-block" href="index.html"><img src="Picture/logo.jpg" alt="" width="191" height="80"></a></div>
+                                        </div>
+                                        <div class="cell-md-3">
+                                            <div class="inset-md-left-50">
+                                                <div class="unit unit-horizontal unit-top unit-spacing-xs text-left">
+                                                    <div class="unit-left"><span class="icon novi-icon mdi mdi-map-marker text-middle"></span></div>
+                                                    <div class="unit-body"><a href="#">1 Paya Lebar Link #04-01, PLQ 1 Paya Lebar Quarter, 408533</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rd-navbar-menu-wrap clearfix">
+                            <div class="rd-navbar-nav-wrap">
+                                <div class="rd-navbar-mobile-scroll">
+                                    <div class="rd-navbar-mobile-header-wrap">
+                                        <div class="rd-navbar-mobile-brand"><a href="index.html"><img src="Picture/logo.jpg" alt="" srcset="Picture/logo.jpg 2x"></a></div>
+                                    </div>
+                                    <ul class="rd-navbar-nav">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about-us.html">About</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li><a href="history.html">History</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="course-grid.html">Course</a>
+                                            <ul class="rd-navbar-dropdown rd-navbar-open-right" style="">
+                                                <li><a href="course-grid.html">All Programs</a></li>
+                                                <li><a href="course-sec.html">SEC</a></li>
+                                                <li><a href="course-olevel.html">O-Level</a></li>
+                                                <li><a href="course-alevel.html">A-Level</a></li>
+                                                <li><a href="course-ial.html">IAL</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="admissions.html">Admissions</a>
+                                            <ul class="rd-navbar-dropdown rd-navbar-open-right" style="">
+                                                <li><a href="admissions-apply.html">How to Apply</a></li>
+                                                <li><a href="admissions-requirements.html">Entry Requirements</a></li>
+                                                <li><a href="admissions-fees.html">Fees & Payments</a></li>
+                                                <li><a href="admissions-policies.html">Policies</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="student-life.html">Student Services</a>
+                                            <ul class="rd-navbar-dropdown rd-navbar-open-right" style="">
+                                                <li><a href="student-life.html">Student Life</a></li>
+                                                <li><a href="student-support.html">Student Support</a></li>
+                                                <li><a href="student-cca.html">CCA & Activities</a></li>
+                                                <li><a href="student-regulations.html">Regulations</a></li>
+                                                <li><a href="student-outcomes.html">Student Outcomes</a></li>
+                                                <li><a href="student-testimonial.html">Testimonials</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="calendar.html">Calendar</a></li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="downloads.html">Resources</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li><a href="downloads.html">Downloads</a></li>
+                                                <li><a href="faq.html">FAQ</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="section breadcrumb-modern context-dark parallax-container" data-parallax-img="images/parallax-03.jpg">
+            <div class="parallax-content section-30 section-sm-70">
+                <div class="shell">
+                    <h2 class="veil reveal-sm-block" data-i18n="admissionsTitle">Admissions</h2>
+                    <div class="offset-sm-top-35">
+                        <ul class="list-inline list-inline-lg list-inline-dashed p">
+                            <li><a href="index.html" data-i18n="courseHome">Home</a></li>
+                            <li data-i18n="admissionsTitle">Admissions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section novi-background bg-cover section-70 section-md-114 bg-catskill">
+            <div class="shell">
+                <h2 class="text-bold" data-i18n="admissionsPageTitle">Start Your Journey at ESIC</h2>
+                <hr class="divider bg-madison">
+                <div class="offset-top-30">
+                    <p class="text-width-medium" data-i18n="admissionsPageDesc">Everything you need to know about applying to ESIC - from application procedures to fees, policies, and regulatory compliance.</p>
+                </div>
+                <div class="row range-30 offset-top-60 text-left" style="display: flex; flex-wrap: wrap; justify-content: center;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="display: flex; margin-bottom: 30px;">
+                        <article class="post-boxed" style="box-shadow: 0 6px 20px rgba(0,0,0,0.08); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; width: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #A51C30;">
+                            <div class="post-boxed-img-wrap" style="background: linear-gradient(135deg, #A51C30 0%, #b80924 100%); padding: 40px; text-align: center; height: 136px;">
+                                <span class="icon novi-icon mdi mdi-clipboard-check" style="font-size: 56px; color: white;"></span>
+                            </div>
+                            <div class="post-boxed-body" style="padding: 30px; flex: 1; display: flex; flex-direction: column; background: white;">
+                                <h5 class="text-madison"><a href="admissions-apply.html" data-i18n="admissionsCard1Title">How to Apply</a></h5>
+                                <div class="offset-top-15" style="flex: 1;">
+                                    <p style="color: #666; line-height: 1.6;" data-i18n="admissionsCard1Desc">Step-by-step application process from online submission to student pass approval.</p>
+                                </div>
+                                <div class="offset-top-20" style="margin-top: auto;">
+                                    <a class="btn btn-sm btn-primary btn-block" href="admissions-apply.html" data-i18n="admissionsCard1Btn">View Process</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="display: flex; margin-bottom: 30px;">
+                        <article class="post-boxed" style="box-shadow: 0 6px 20px rgba(0,0,0,0.08); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; width: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #4a90e2;">
+                            <div class="post-boxed-img-wrap" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%); padding: 40px; text-align: center; height: 136px;">
+                                <span class="icon novi-icon mdi mdi-school" style="font-size: 56px; color: white;"></span>
+                            </div>
+                            <div class="post-boxed-body" style="padding: 30px; flex: 1; display: flex; flex-direction: column; background: white;">
+                                <h5 class="text-madison"><a href="admissions-requirements.html" data-i18n="admissionsCard2Title">Entry Requirements</a></h5>
+                                <div class="offset-top-15" style="flex: 1;">
+                                    <p style="color: #666; line-height: 1.6;" data-i18n="admissionsCard2Desc">Academic and English proficiency requirements for SEC and IAL programs.</p>
+                                </div>
+                                <div class="offset-top-20" style="margin-top: auto;">
+                                    <a class="btn btn-sm btn-primary btn-block" href="admissions-requirements.html" data-i18n="admissionsCard2Btn">Check Requirements</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="display: flex; margin-bottom: 30px;">
+                        <article class="post-boxed" style="box-shadow: 0 6px 20px rgba(0,0,0,0.08); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; width: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #27ae60;">
+                            <div class="post-boxed-img-wrap" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%); padding: 40px; text-align: center; height: 136px;">
+                                <span class="icon novi-icon mdi mdi-currency-usd" style="font-size: 56px; color: white;"></span>
+                            </div>
+                            <div class="post-boxed-body" style="padding: 30px; flex: 1; display: flex; flex-direction: column; background: white;">
+                                <h5 class="text-madison"><a href="admissions-fees.html" data-i18n="admissionsCard3Title">Fees & Payments</a></h5>
+                                <div class="offset-top-15" style="flex: 1;">
+                                    <p style="color: #666; line-height: 1.6;" data-i18n="admissionsCard3Desc">Tuition fees, payment policies, fee protection scheme, and student contract.</p>
+                                </div>
+                                <div class="offset-top-20" style="margin-top: auto;">
+                                    <a class="btn btn-sm btn-primary btn-block" href="admissions-fees.html" data-i18n="admissionsCard3Btn">View Fees</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="display: flex; margin-bottom: 30px;">
+                        <article class="post-boxed" style="box-shadow: 0 6px 20px rgba(0,0,0,0.08); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; width: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #9b59b6;">
+                            <div class="post-boxed-img-wrap" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); padding: 40px; text-align: center; height: 136px;">
+                                <span class="icon novi-icon mdi mdi-file-document" style="font-size: 56px; color: white;"></span>
+                            </div>
+                            <div class="post-boxed-body" style="padding: 30px; flex: 1; display: flex; flex-direction: column; background: white;">
+                                <h5 class="text-madison"><a href="admissions-policies.html" data-i18n="admissionsCard4Title">Policies & Procedures</a></h5>
+                                <div class="offset-top-15" style="flex: 1;">
+                                    <p style="color: #666; line-height: 1.6;" data-i18n="admissionsCard4Desc">Transfer, withdrawal, deferral policies, and dispute resolution procedures.</p>
+                                </div>
+                                <div class="offset-top-20" style="margin-top: auto;">
+                                    <a class="btn btn-sm btn-primary btn-block" href="admissions-policies.html" data-i18n="admissionsCard4Btn">View Policies</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section novi-background bg-cover section-70 section-md-100 context-dark" style="background: linear-gradient(135deg, #A51C30 0%, #b80924 100%);">
+            <div class="shell text-center">
+                <h3 class="text-bold" style="color: white; font-size: 32px;">Ready to Apply?</h3>
+                <div class="offset-top-20">
+                    <p style="color: rgba(255,255,255,0.9); font-size: 18px; max-width: 600px; margin: 0 auto;">Begin your application today and take the first step towards academic excellence.</p>
+                </div>
+                <div class="offset-top-40">
+                    <a class="btn btn-lg" href="admissions-apply.html" style="background: white; color: #A51C30; border-color: white; padding: 14px 40px; border-radius: 30px; font-weight: 600;">Start Application</a>
+                    <a class="btn btn-lg" href="contacts.html" style="background: transparent; color: white; border: 2px solid white; margin-left: 15px; padding: 14px 40px; border-radius: 30px; font-weight: 600;">Contact Admissions</a>
+                </div>
+            </div>
+        </section>
+        <section class="section novi-background bg-cover section-70 section-md-114 bg-default">
+            <div class="shell">
+                <h2 class="text-bold">Important Exam Dates</h2>
+                <hr class="divider bg-madison">
+                <div class="offset-top-30">
+                    <p class="text-width-medium">View important upcoming dates for entry tests, preliminary examinations, GCE A-Level and IAL examinations.</p>
+                </div>
+                <div id="exam-dates" class="offset-top-50">
+                    <!-- Exam dates will be loaded here -->
+                    <div class="text-center" style="padding: 40px;">
+                        <p style="color: #999;">Loading...</p>
+                    </div>
+                </div>
+                <div class="offset-top-40 text-center">
+                    <button 
+                        id="language-toggle" 
+                        class="btn btn-default"
+                        style="margin-right: 15px;"
+                        aria-label="Switch language"
+                        title="Switch Language"
+                    >
+                        <span class="language-text">中文</span>
+                        <span class="language-icon">🌐</span>
+                    </button>
+                    <a class="btn btn-primary" href="calendar.html">View Full Calendar</a>
+                </div>
+            </div>
+        </section>
+        <footer class="section page-footer">
+            <div class="novi-background bg-cover bg-default">
+                <div class="shell-wide">
+                    <div class="hr bg-gray-light"></div>
+                </div>
+                <div class="section-60">
+                    <div class="shell">
+                        <div class="range range-50 range-lg-justify range-xs-center">
+                            <div class="cell-md-3 cell-lg-3"><a class="reveal-inline-block" href="index.html"><img src="Picture/logo.jpg" alt="Equistar International College" style="max-width: 150px; height: auto;"></a>
+                                <div class="offset-top-30 text-center">
+                                    <ul class="list-inline list-inline-xs list-inline-madison">
+                                        <li><a class="icon novi-icon icon-xxs fa-facebook icon-circle icon-gray-light-filled" href="#"></a></li>
+                                        <li><a class="icon novi-icon icon-xxs fa-twitter icon-circle icon-gray-light-filled" href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cell-xs-10 cell-md-5 cell-lg-4 text-lg-left">
+                                <h6 class="text-bold">Contact us</h6>
+                                <div class="text-subline"></div>
+                                <div class="offset-top-30">
+                                    <ul class="list-unstyled contact-info list">
+                                        <li><div class="unit unit-horizontal unit-middle unit-spacing-xs">
+                                            <div class="unit-left"><span class="icon novi-icon mdi mdi-phone text-middle icon-xs text-madison"></span></div>
+                                            <div class="unit-body"><a class="text-dark" href="tel:+6562982749">+65 62982749</a></div>
+                                        </div></li>
+                                        <li><div class="unit unit-horizontal unit-middle unit-spacing-xs">
+                                            <div class="unit-left"><span class="icon novi-icon mdi mdi-email-open text-middle icon-xs text-madison"></span></div>
+                                            <div class="unit-body"><a href="mailto:#">info@esic.edu.sg</a></div>
+                                        </div></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cell-xs-10 cell-md-8 cell-lg-4">
+                                <p><a href="admissions-privacy.html">Privacy Policy & PDPA</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5 bg-madison context-dark novi-background">
+                    <div class="shell text-md-left">
+                        <p>© <span class="copyright-year">2019</span> All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <!-- Global Language Switcher -->
+    <script src="js/global-language.js"></script>
+    
+    <!-- Language Data (for calendar widgets) -->
+    <script src="js/language-data.js"></script>
+    
+    <!-- Exam Dates Widget Script -->
+    <script>
+    (function() {
+        'use strict';
+        
+        function formatDateRange(start, end) {
+            const startDate = new Date(start + 'T00:00:00');
+            const endDate = new Date(end + 'T00:00:00');
+            const opts = { month: 'short', day: 'numeric' };
+            
+            if (start === end) {
+                const locale = window.languageManager ? window.languageManager.getText('dateLocale') : 'en-US';
+                return startDate.toLocaleDateString(locale, opts);
+            }
+            
+            const locale = window.languageManager ? window.languageManager.getText('dateLocale') : 'en-US';
+            return startDate.toLocaleDateString(locale, opts) + ' - ' + endDate.toLocaleDateString(locale, opts);
+        }
+        
+        function loadExamDates() {
+            try {
+                const languageManager = window.languageManager;
+                if (!languageManager) {
+                    setTimeout(loadExamDates, 100);
+                    return;
+                }
+                
+                // Inline event data
+                const events = [
+                    {"Title":"Teacher reporting","Start":"2025-01-01","End":"2025-01-04","All_day":true,"Month_block":"January"},
+                    {"Title":"Student reporting","Start":"2025-01-05","End":"2025-01-11","All_day":true,"Month_block":"January"},
+                    {"Title":"Entry test for new students; Orientationfor new student","Start":"2025-01-12","End":"2025-01-18","All_day":true,"Month_block":"January"},
+                    {"Title":"Chinese New Year Holiday Week","Start":"2025-01-26","End":"2025-01-31","All_day":true,"Month_block":"January"},
+                    {"Title":"Learing trip: NUS Youth programme(AM)","Start":"2025-02-16","End":"2025-02-22","All_day":true,"Month_block":"February"},
+                    {"Title":"Monthly Test","Start":"2025-02-23","End":"2025-02-27","All_day":true,"Month_block":"February"},
+                    {"Title":"Learning trip: NUS Youth programme(AM)","Start":"2025-03-09","End":"2025-03-15","All_day":true,"Month_block":"March"},
+                    {"Title":"Monthly Test","Start":"2025-03-16","End":"2025-03-20","All_day":true,"Month_block":"March"},
+                    {"Title":"Swimming Day @ Yio Chu Kang Swimming Complex (8:30AM ~ 12PM)","Start":"2025-03-30","End":"2025-03-31","All_day":true,"Month_block":"March"},
+                    {"Title":"April Fool","Start":"2025-04-01","End":"2025-04-02","All_day":true,"Month_block":"April"},
+                    {"Title":"Prelim Examination & Montly Test & Good Friday","Start":"2025-04-13","End":"2025-04-19","All_day":true,"Month_block":"April"},
+                    {"Title":"Prelim Examination","Start":"2025-04-20","End":"2025-04-26","All_day":true,"Month_block":"April"},
+                    {"Title":"Prelim Examination","Start":"2025-04-27","End":"2025-04-30","All_day":true,"Month_block":"April"},
+                    {"Title":"Labour Day","Start":"2025-05-01","End":"2025-05-02","All_day":true,"Month_block":"May"},
+                    {"Title":"Prelim Examination","Start":"2025-05-11","End":"2025-05-17","All_day":true,"Month_block":"May"},
+                    {"Title":"Prelim Examination","Start":"2025-05-18","End":"2025-05-24","All_day":true,"Month_block":"May"},
+                    {"Title":"Prelim Examination","Start":"2025-05-25","End":"2025-05-31","All_day":true,"Month_block":"May"},
+                    {"Title":"Study Break","Start":"2025-06-01","End":"2025-06-07","All_day":true,"Month_block":"June"},
+                    {"Title":"Study Break","Start":"2025-06-08","End":"2025-06-14","All_day":true,"Month_block":"June"},
+                    {"Title":"School Reopen","Start":"2025-06-15","End":"2025-06-21","All_day":true,"Month_block":"June"},
+                    {"Title":"June Holiday","Start":"2025-06-22","End":"2025-06-28","All_day":true,"Month_block":"June"},
+                    {"Title":"June Holiday","Start":"2025-06-29","End":"2025-06-30","All_day":true,"Month_block":"June"},
+                    {"Title":"June Holiday","Start":"2025-07-01","End":"2025-07-05","All_day":true,"Month_block":"July"},
+                    {"Title":"June Holiday","Start":"2025-07-06","End":"2025-07-12","All_day":true,"Month_block":"July"},
+                    {"Title":"June Holiday","Start":"2025-07-13","End":"2025-07-19","All_day":true,"Month_block":"July"},
+                    {"Title":"June Holiday","Start":"2025-07-20","End":"2025-07-26","All_day":true,"Month_block":"July"},
+                    {"Title":"June Holiday","Start":"2025-07-27","End":"2025-07-31","All_day":true,"Month_block":"July"},
+                    {"Title":"IELTS Test","Start":"2025-08-10","End":"2025-08-16","All_day":true,"Month_block":"August"},
+                    {"Title":"National Day","Start":"2025-08-09","End":"2025-08-10","All_day":true,"Month_block":"August"},
+                    {"Title":"Sports Day @ Bishan Stadium (8:30AM ~ 12PM)","Start":"2025-08-24","End":"2025-08-30","All_day":true,"Month_block":"August"},
+                    {"Title":"Mid-Autumn Festival","Start":"2025-09-07","End":"2025-09-13","All_day":true,"Month_block":"September"},
+                    {"Title":"School Holiday","Start":"2025-09-28","End":"2025-09-30","All_day":true,"Month_block":"September"},
+                    {"Title":"Teachers' Day","Start":"2025-10-01","End":"2025-10-02","All_day":true,"Month_block":"October"},
+                    {"Title":"Edx IAL Examination","Start":"2025-10-26","End":"2025-10-30","All_day":true,"Month_block":"October"},
+                    {"Title":"GCE A level & Edx IAL Examination","Start":"2025-11-02","End":"2025-11-08","All_day":true,"Month_block":"November"},
+                    {"Title":"GCE A level & Edx IAL Examination","Start":"2025-11-09","End":"2025-11-15","All_day":true,"Month_block":"November"},
+                    {"Title":"GCE A level & Edx IAL Examination","Start":"2025-11-16","End":"2025-11-22","All_day":true,"Month_block":"November"},
+                    {"Title":"GCE A level & Edx IAL Examination","Start":"2025-11-23","End":"2025-11-29","All_day":true,"Month_block":"November"},
+                    {"Title":"IELTS Test; Parent Meeting","Start":"2025-12-01","End":"2025-12-06","All_day":true,"Month_block":"December"},
+                    {"Title":"School Holiday","Start":"2025-12-21","End":"2025-12-27","All_day":true,"Month_block":"December"},
+                    {"Title":"School Holiday","Start":"2025-12-28","End":"2025-12-31","All_day":true,"Month_block":"December"}
+                ];
+                const today = new Date().toISOString().slice(0, 10);
+                
+                // Filter for exam-related events
+                const pattern = /(exam|test|GCE|IELTS|Prelim|Monthly|Entry)/i;
+                const exams = events
+                    .filter(function(e) { 
+                        return e.End >= today && pattern.test(e.Title); 
+                    })
+                    .sort(function(a, b) { return a.Start.localeCompare(b.Start); })
+                    .slice(0, 5);
+                
+                const container = document.getElementById('exam-dates');
+                if (!container) return;
+                
+                if (exams.length === 0) {
+                    container.innerHTML = '<div class="text-center"><p>' + languageManager.getText('noExamDates') + '</p></div>';
+                    return;
+                }
+                
+                const html = '<div class="range range-30">' +
+                    exams.map(function(event) {
+                        return '<div class="col-xs-12 col-sm-6 col-md-4">' +
+                            '<div style="padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 20px; border-left: 4px solid #e74c3c; transition: transform 0.3s;">' +
+                            '<div style="display: flex; align-items: start; gap: 15px;">' +
+                            '<div style="flex-shrink: 0; width: 50px; height: 50px; background: linear-gradient(135deg, #e74c3c, #c0392b); border-radius: 50%; display: flex; align-items: center; justify-content: center;">' +
+                            '<span class="icon novi-icon mdi mdi-pencil-box-outline" style="font-size: 24px; color: white;"></span>' +
+                            '</div>' +
+                            '<div style="flex: 1;">' +
+                            '<h6 class="text-bold" style="margin: 0 0 8px 0; font-size: 15px; color: #e74c3c;">' + event.Title + '</h6>' +
+                            '<p style="margin: 0; color: #7f8c8d; font-size: 13px;">' +
+                            '<span class="icon novi-icon mdi mdi-calendar-alert" style="margin-right: 5px;"></span>' +
+                            formatDateRange(event.Start, event.End) +
+                            '</p>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>';
+                    }).join('') +
+                    '</div>';
+                
+                container.innerHTML = html;
+                
+            } catch (error) {
+                console.error('Failed to load exam dates:', error);
+                const container = document.getElementById('exam-dates');
+                if (container) {
+                    container.innerHTML = '<div class="text-center"><p>' + (window.languageManager ? window.languageManager.getText('unableToLoadExams') : 'Unable to load exam data') + '</p></div>';
+                }
+            }
+        }
+        
+        // Setup language toggle for admissions page
+        function setupAdmissionsLanguageToggle() {
+            const languageToggle = document.getElementById('language-toggle');
+            if (languageToggle && window.languageManager) {
+                languageToggle.addEventListener('click', () => {
+                    window.languageManager.toggleLanguage();
+                    // Reload exam dates to update language
+                    loadExamDates();
+                });
+            }
+        }
+        
+        // Load exam dates when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                loadExamDates();
+                setupAdmissionsLanguageToggle();
+            });
+        } else {
+            loadExamDates();
+            setupAdmissionsLanguageToggle();
+        }
+    })();
+    </script>
+</body>
+</html>
+
